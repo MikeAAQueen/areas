@@ -9,6 +9,7 @@ def main():
     area1 = area_quadrado(lado)
     print(f"A área do quadrado é: {area1:.2f}")
     
+
     base = float(input("Digite a base do retângulo: "))
     altura = float(input("Digite a altura do retângulo: "))
     area2 = area_retangulo(base, altura)
